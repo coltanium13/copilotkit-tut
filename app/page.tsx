@@ -1,10 +1,12 @@
-import { CopilotSidebar } from "@copilotkit/react-core/v2";
+// import { CopilotSidebar } from "@copilotkit/react-core/v2";
+import { CopilotChat } from "@copilotkit/react-core/v2";
 
 export default function Home() {
   return (
-    <main>
-      <h1>Hello World</h1>
-      <CopilotSidebar defaultOpen={true} />
+    <main className="flex flex-col items-center justify-center p-4 md:p-8 min-h-screen w-full">
+      <div className="w-full max-w-4xl h-[calc(100vh-100px)] border rounded-2xl overflow-hidden shadow-lg">
+        <CopilotChat className="h-full" />
+      </div>
     </main>
   );
 }
