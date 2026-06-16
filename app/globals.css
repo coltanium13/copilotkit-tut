@@ -24,3 +24,24 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* HALCYON palette — a private library at golden hour. */
+
+[data-copilotkit] {
+  --primary: oklch(0.53 0.21 44); /* Halcyon Ember (copper accent) */
+  --primary-foreground: oklch(0.98 0.01 75); /* Halcyon Paper Elevated */
+  --background: oklch(
+    0.86 0.04 78
+  ); /* Halcyon Paper (goldish parchment background) */
+  --foreground: oklch(0.14 0.01 45); /* Halcyon Ink (dark text) */
+  --muted: oklch(0.92 0.01 75); /* Halcyon Paper Soft (subtle background) */
+  --border: oklch(0.85 0.02 75); /* Halcyon Rule (borders) */
+  --radius: 0.625rem; /* global corner radius */
+}
+
+/* Dark mode is keyed off a `.dark` ancestor */
+.dark [data-copilotkit] {
+  --background: oklch(0.14 0.01 45); /* Halcyon Ink */
+  --foreground: oklch(0.95 0.01 75); /* Halcyon Paper */
+  --border: oklch(0.25 0.01 45); /* Halcyon Ink Soft */
+}
