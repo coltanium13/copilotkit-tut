@@ -25,6 +25,33 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Override Tailwind resets for headings to make them large and bold inside CopilotKit */
+[data-copilotkit] h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+[data-copilotkit] h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
+[data-copilotkit] h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+[data-copilotkit] h4 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+[data-copilotkit] h5 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+
 /* HALCYON palette — a private library at golden hour. */
 
 [data-copilotkit] {
