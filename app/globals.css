@@ -58,7 +58,7 @@ body {
   --primary: oklch(0.53 0.21 44); /* Halcyon Ember (copper accent) */
   --primary-foreground: oklch(0.98 0.01 75); /* Halcyon Paper Elevated */
   --background: oklch(
-    0.86 0.04 78
+    92.601% 0.02155 76.463
   ); /* Halcyon Paper (goldish parchment background) */
   --foreground: oklch(0.14 0.01 45); /* Halcyon Ink (dark text) */
   --muted: oklch(0.92 0.01 75); /* Halcyon Paper Soft (subtle background) */
